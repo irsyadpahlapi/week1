@@ -1,84 +1,153 @@
-body {
-  font-family: 'Slabo 27px', serif;
+body{
+  margin: auto 2%;
+  padding: 0px;
+  padding-bottom: 30px;
+  background-image: url('background.png');
 }
-
-h1 {
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding-bottom: 10px;
-}
-
-.separator {
+header{
   width: 100%;
-  height: auto;
-  overflow: hidden;
+  height: 400px;
 }
-
-/* Style Untuk Soal 1, 2, dan 3. Gunakan Dengan Sesuai! */
-
-.box-100 {
+.fotohead > img{
+  width: 100%;
+  height: 300px;
+}
+.icon-profile > img{
   width: 100px;
   height: 100px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
+  border-radius: 50%;
+}
+.icon-profile{
+  position: absolute;
+  left: 46%;
+  top: 220px;
 }
 
-.box-200 {
-  width: 200px;
+.fotohead{
+  width: 100%;
+  height: 300px;
+}
+.navbar{
+  width: 100%;;
+  height: 100px;
+  background-color: white;
+  border-radius: 0px 0px 7px 7px;
+}
+nav{
+    display: grid;
+    justify-items:center;
+}
+ul{
+  margin-top: 40px;
+  padding: 0px;
+}
+li{
+  margin: 5px;
+  margin-right: 30px;
+  padding: 10px 50px;
+  border: 1px solid rgba(233,233,233,0.9);
+  top: 0px;
+  display: inline-block;
+}
+li:hover{
+  background-color: rgba(100,100,100,0.1);
+  box-shadow: 2px 2px rgba(100,100,100,0.2);
+  cursor: pointer;
+}
+footer{
+  background-color: black;
+	color: white;
+  text-align: right;
+  padding: 20px;
+  border-radius: 0px 0px 7px 7px;
+  clear: both;
+}
+.content{
+  margin-bottom: 20px;
+  padding-top: 50px;
+  width: 100%;
+}
+.sidebarleft{
+  width:25%;
+  height: auto;
+  float: left;
+}
+.sidebarright{
+  width:25%;
+  height: auto;
+  float: right;
+}
+.paper{
+  width:46%;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.item-trending{
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.item-trending:hover{
+  background-color: rgba(100, 100, 100, 0.3);
+  cursor: pointer;
+}
+.item-trending > img{
+  border-radius: 10px;
+  width: 100%;
   height: 200px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
 }
-
-#maroon-box {
-  color: #FFFFFF;
-  background: #96281B;
-}
-
-#dark-blue-box {
-  color: #FFFFFF;
-  background: #4B77BE;
-}
-
-#salem-box {
-  color: #FFFFFF;
-  background: #1E824C;
-}
-
-.red-background {
-  color: #FFFFFF;
-  background: #C0392B;
-}
-
-.blue-background {
-  color: #FFFFFF;
-  background: #446CB3;
-}
-
-.green-background {
-  color: #FFFFFF;
-  background: #26A65B;
-}
-
-.box-list div {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
-  background: #353535;
-  color: #FFFFFF;
-}
-
-#gold-box {
+.trending{
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 20px;
-  color: #353535;
-  background: #F9BF3B;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.trending > h2{
+  text-align: center;
+}
+.item-trending > h3{
+  font-family: calibri;
+}
+.halamanlogin{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+tr > td > button{
+  background-color: rgb(66, 176, 244);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+table{
+  display: grid;
+  justify-items:center;
+}
+.newpaper{
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  display: inline-block;
+  align-items: stretch;
+}
+.item-paper > img{
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
+.item-paper{
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  margin: 20px;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.item-paper:hover{
+  background-color:rgba(110, 110, 110, 0.1);
+  border: 1px solid rgba(110, 110, 110, 0.1);
+  box-shadow: 2px 2px rgba(110, 110, 110, 0.3);
+  cursor:pointer;
 }
